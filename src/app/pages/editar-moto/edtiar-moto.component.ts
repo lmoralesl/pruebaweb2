@@ -17,7 +17,7 @@ ruta = inject(ActivatedRoute)
 
   id:any
   precio:any
-  placa_id:any
+  placa:any
   anio:any
   imagen:any
   motos:any

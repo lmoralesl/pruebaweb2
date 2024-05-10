@@ -1,18 +1,11 @@
 {
   "motocicletas": [
     {
-      "id": "3D8 HJK",
-      "placa": "3D8 HJK",
-      "precio": "21500",
-      "anio": "2012",
-      "imagen": "https://i0.wp.com/gugu.ec/wp-content/uploads/2022/03/MOTO-NINJA-2.jpg?fit=1440%2C1440&ssl=1"
-    },
-    {
+      "imagen": "https://ecomotion.com.ec/wp-content/uploads/2023/07/miku-super-lateral.jpg",
       "id": "2K9 TQZ",
-      "placa": "2K9 TQZ",
-      "precio": "18250",
-      "anio": "2019",
-      "imagen": "https://ecomotion.com.ec/wp-content/uploads/2023/07/miku-super-lateral.jpg"
+      "placa": "AP3",
+      "precio": "123",
+      "anio": "123"
     },
     {
       "id": "5R7 PLO",
