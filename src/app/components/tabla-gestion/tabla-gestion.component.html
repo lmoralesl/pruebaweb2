@@ -1,0 +1,58 @@
+<h1>Busqueda por la Placa</h1>
+  <form>
+    
+    <input
+      type="text"
+      [(ngModel)]="placa"
+      placeholder="Ingrese una placa "
+      [ngModelOptions]="{ standalone: true }"
+    />
+
+<table class="table">
+    <thead>
+        <tr>
+          <th>Placa</th>
+          <th>Precio</th>
+          <th>Año</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (item of motos; track item) { 
+          @if (item.placa == placa ) {
+        <tr>
+          <td>{{ item.placa }}</td>
+          <td>${{ item.precio }}</td>
+          <td>{{ item.anio }}</td>
+          <td>
+            <button [routerLink]="['/editar', item.id]">Editar</button>
+            <button (click)="eliminar(item.id)">Eliminar</button>
+          </td>
+        </tr>
+        } }
+      </tbody>
+  </table>
+  <table class="table">
+    <thead>
+        <tr>
+          <th>Placa</th>
+          <th>Precio</th>
+          <th>Año</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (item of motos; track item) { 
+          
+        <tr>
+          <td>{{ item.placa }}</td>
+          <td>${{ item.precio }}</td>
+          <td>{{ item.anio }}</td>
+          <td>
+            <button [routerLink]="['/editar', item.id]">Editar</button>
+            <button (click)="eliminar(item.id)">Eliminar</button>
+          </td>
+        </tr>
+        } 
+      </tbody>
+  </table>

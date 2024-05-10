@@ -1,0 +1,41 @@
+.container {
+    
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según necesites */
+}
+
+.card {
+    width: 20%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-id {
+    color: #007bff;
+}
+
+.card-name {
+    color: #28a745;
+}
+
+.card-description {
+    color: #dc3545;
+}
+
+.card-atributo {
+    color: #ffc107;
+}

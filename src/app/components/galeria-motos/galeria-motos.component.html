@@ -1,0 +1,33 @@
+<nav class="container">
+    <h1>Busqueda por año</h1>
+    <select name="" id="" [(ngModel)] ='anio'>
+        <option value="2015">2015</option>
+        <option value="2012">2012</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2022">2022</option>
+      </select>
+    @for (item of motocicletas; track item) {
+       @if (item.anio == anio) { 
+             <div class="container ">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="{{item.imagen}}" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">{{item.marca}}</h4>
+                  <p class="card-text">precio:$ {{item.precio}}</p>
+                  
+                  <button class="btn btn-primary" [routerLink]="['/detalles',item.id]">Ver mas detalles</button>
+                </div>
+              </div>
+          </div>
+        }
+       
+    }
+    <nav class="container">
+        <h1>Años que se desee buscar disponibles</h1>
+        @for (item of motocicletas; track item) {
+            
+            <p>{{item.anio}}</p>
+        }</nav>
+    
+  </nav>

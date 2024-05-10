@@ -1,0 +1,39 @@
+{
+  "motocicletas": [
+    {
+      "id": "3D8 HJK",
+      "placa": "3D8 HJK",
+      "precio": "21500",
+      "anio": "2012",
+      "imagen": "https://i0.wp.com/gugu.ec/wp-content/uploads/2022/03/MOTO-NINJA-2.jpg?fit=1440%2C1440&ssl=1"
+    },
+    {
+      "id": "2K9 TQZ",
+      "placa": "2K9 TQZ",
+      "precio": "18250",
+      "anio": "2019",
+      "imagen": "https://ecomotion.com.ec/wp-content/uploads/2023/07/miku-super-lateral.jpg"
+    },
+    {
+      "id": "5R7 PLO",
+      "placa": "5R7 PLO",
+      "precio": "24750",
+      "anio": "2020",
+      "imagen": "https://motos-b60.kxcdn.com/sites/default/files/yamaha-r6-race-2022.jpg"
+    },
+    {
+      "id": "6AB 123CD",
+      "precio": "18900",
+      "placa": "AB 123CD",
+      "anio": "2015",
+      "imagen": "https://moto.suzuki.es/assets/img/image-moto-slider-home-1.png"
+    },
+    {
+      "id": "6AB 123CD",
+      "precio": "18900",
+      "placa": "AB 123CD",
+      "anio": "2015",
+      "imagen": "https://moto.suzuki.es/assets/img/image-moto-slider-home-1.png"
+    }
+  ]
+}
